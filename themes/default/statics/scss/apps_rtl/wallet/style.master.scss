@@ -1,0 +1,71 @@
+// @*************************************************************************@
+// @ Software author: Mansur Altamirov (Mansur_TL)							 @
+// @ Author_url 1: https://www.instagram.com/mansur_tl                       @
+// @ Author_url 2: http://codecanyon.net/user/mansur_tl                      @
+// @ Author E-mail: vayart.help@gmail.com                                    @
+// @*************************************************************************@
+// @ ColibriSM - The Ultimate Modern Social Media Sharing Platform           @
+// @ Copyright (c) 2020 - 2021 ColibriSM. All rights reserved.               @
+// @*************************************************************************@
+
+
+body[dir="rtl"]{
+	&.cl-app-wallet{
+		div.account-wallet{
+			div.account-wallet__status{
+				div.account-wallet__card{
+					div.wallet-balance{
+						div.wallet-balance__amount{
+							padding-right: 0px;
+							padding-left: var(--cl-primary-offset-size);
+						}
+					}
+
+					div.wallet-footer{
+						div.wallet-footer__ctrls{
+							a.wallet-footer__ctrls-item{
+								&:first-child{
+									margin-left: var(--cl-primary-offset-size);
+									margin-right: 0px;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			div.account-wallet__history{
+				div.wallet-transactions{
+					div.wallet-transactions__item{
+						div.rp{
+							padding-left: 0px;
+							padding-right: var(--cl-primary-offset-size);
+
+							div.mp__amount{
+								display: flex;
+								flex-direction: row;
+								flex-wrap: nowrap;
+								margin-bottom: 2px;
+
+								div.flex-item-left{
+									margin-left: var(--cl-primary-offset-size);
+									margin-right: 0px;
+			 					}
+							}
+
+							div.mp__text{
+								font-size: 15px;
+								color: var(--cl-secondary-text-color);
+
+								@include media-breakpoint-down(xl) {
+									font-size: 13px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

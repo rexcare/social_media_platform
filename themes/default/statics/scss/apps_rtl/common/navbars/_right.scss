@@ -1,0 +1,74 @@
+// @*************************************************************************@
+// @ Software author: Mansur Altamirov (Mansur_TL)							 @
+// @ Author_url 1: https://www.instagram.com/mansur_tl                       @
+// @ Author_url 2: http://codecanyon.net/user/mansur_tl                      @
+// @ Author E-mail: vayart.help@gmail.com                                    @
+// @*************************************************************************@
+// @ ColibriSM - The Ultimate Modern Social Media Sharing Platform           @
+// @ Copyright (c) 2020 - 2021 ColibriSM. All rights reserved.               @
+// @*************************************************************************@
+
+div.right-sb-container{
+	div.sidebar__inner{
+		padding: var(--cl-primary-offset-size) 50px var(--cl-primary-offset-size) 0px;
+
+		div.right-sidebar{
+			div.right-sidebar__header{
+				form.sidebar-searchbar{
+					div.sidebar-searchbar__input{
+
+						input{
+							padding: 0px 40px 0px 15px;
+						}
+
+						span.keyword-input__left-icon{
+							right: 0px;
+						}
+
+						span.keyword-input__right-spinner{
+							left: 0px;
+							right: auto;
+						}
+
+						span.keyword-input__right-icon{
+							left: 0px;
+							right: auto;
+						}
+					}
+
+					div.sidebar-searchbar__result{
+						div.search-result{
+							div.search-result__body{
+								div.search-result__list{
+									div.search-result__list-item{
+										a{
+											div.result-item-data{
+												div.result-item-data__data{
+													margin-right: var(--cl-primary-offset-size);
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			div.right-sidebar__body{
+				div.sidebar-content{
+					div.sidebar-content__body{
+						div.sidebar-users{
+							div.sidebar-users__item{
+								div.sidebar-users__item-data{
+									padding: 0px var(--cl-primary-offset-size) 0px 0px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

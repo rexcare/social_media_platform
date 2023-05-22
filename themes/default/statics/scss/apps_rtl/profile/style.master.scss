@@ -1,0 +1,80 @@
+// @*************************************************************************@
+// @ Software author: Mansur Altamirov (Mansur_TL)							 @
+// @ Author_url 1: https://www.instagram.com/mansur_tl                       @
+// @ Author_url 2: http://codecanyon.net/user/mansur_tl                      @
+// @ Author E-mail: vayart.help@gmail.com                                    @
+// @*************************************************************************@
+// @ ColibriSM - The Ultimate Modern Social Media Sharing Platform           @
+// @ Copyright (c) 2020 - 2021 ColibriSM. All rights reserved.               @
+// @*************************************************************************@
+
+body[dir="rtl"]{
+	&.cl-app-profile{	
+		div.user-profile{
+			div.user-profile__header{
+				div.user-profile__header-cover{
+					div.cover-corrector{
+						left: 0px;
+						right: auto;
+					}
+				}
+
+				div.user-profile__header-avatar{
+					left: auto;
+					right: 0px;
+				}
+			}
+
+			div.user-profile__body{
+				div.user-profile__controls{
+					div.user-profile__controls-item{
+						&.ml-offset{
+							margin-left: 0px;
+							margin-right: 20px;
+						}
+					}
+				}
+
+				div.user-profile__counter{
+					a.counter-item{
+						margin-right: 0px;
+						margin-left: var(--cl-primary-offset-size);
+					}
+				}
+			}
+
+			div.user-profile__footer{
+				div.profile-shortinfo{
+					div.profile-shortinfo__item{
+						margin-right: 0px;
+						margin-left: var(--cl-primary-offset-size);
+					}
+				}
+
+				div.profile-myfollower{
+					margin-bottom: var(--cl-primary-offset-size);
+					color: var(--cl-secondary-text-color);
+					font-size: 14px;
+				}
+
+				div.profile-common-follows{
+					margin-bottom: var(--cl-primary-offset-size);
+
+					div.common-follows{
+						div.common-follows__list{
+							margin-right: 7px;
+
+							div.common-follows__item{
+								margin-right: -7px;
+
+								&.common-follows__item_total{
+									margin-right: 7px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,145 @@
+// @*************************************************************************@
+// @ Software author: Mansur Altamirov (Mansur_TL)							 @
+// @ Author_url 1: https://www.instagram.com/mansur_tl                       @
+// @ Author_url 2: http://codecanyon.net/user/mansur_tl                      @
+// @ Author E-mail: vayart.help@gmail.com                                    @
+// @*************************************************************************@
+// @ ColibriSM - The Ultimate Modern Social Media Sharing Platform           @
+// @ Copyright (c) 2020 - 2021 ColibriSM. All rights reserved.               @
+// @*************************************************************************@
+
+div.timeline-pubbox-container{
+	form.form{
+		div.timeline-pubbox{
+			button.delete-preview{
+				left: 5px;
+				right: auto;
+			}
+
+			div.timeline-pubbox__header{
+				div.timeline-pubbox__textinput{
+					div.pubbox-input{
+						margin-right: var(--cl-primary-offset-size);
+					}
+				}
+			}
+
+			div.timeline-pubbox__body{
+				div.timeline-pubbox__autocomplete{
+					div.pubbox-autocomplete{
+						div.pubbox-autocomplete__usernames,div.pubbox-autocomplete__hashtags{
+							left: auto;
+							right: 0px;
+
+							div.pubbox-autocomplete__usernames-list{
+								div.username-list-item{
+									div.username-list-item__username{
+										padding-right: var(--cl-primary-offset-size);
+										padding-left: 0px;
+									}
+								}
+							}
+						}
+					}
+				}
+
+				div.timeline-pubbox__audio{
+					div.pubbox-audio{
+						div.pubbox-audio__player{
+							margin-left: var(--cl-primary-offset-size);
+							margin-right: 0px;
+						}
+					}
+				}
+
+				div.timeline-pubbox__doc{
+					div.pubbox-document{
+						div.pubbox-document__body{
+							margin-right: 0px;
+							margin-left: var(--cl-primary-offset-size);
+
+							div.pubbox-document__name{
+								margin-right: 10px;
+								margin-left: 0px;
+							}
+						}
+					}
+				}
+
+				div.timeline-pubbox__gifs{
+					div.pubbox-gifs{
+						div.pubbox-gifs__loader{
+							div.pubbox-gifs__loader-searchbar{
+								div.searchbar-input{
+									margin-right: 0px;
+									margin-left: var(--cl-primary-offset-size);
+
+									span.searchbar-input__icon{
+										right: 0px;
+									}
+								}
+							}
+						}
+					}
+				}
+
+				div.timeline-pubbox__poll{		
+					div.pubbox-poll{
+						div.pubbox-poll__body{
+							div.pubbox-poll__inputs{
+								div.pubbox-poll__input-item{
+									div.form-group{
+										small{
+											left: 10px;
+											right: auto;
+										}
+									}
+								}
+							}
+						}
+
+						div.pubbox-poll__footer{
+							button.btn:last-child{
+								margin-right: var(--cl-primary-offset-size);
+								margin-left: 0px;
+							}
+						}
+					}
+				}
+			}
+
+			div.timeline-pubbox__footer{
+				div.timeline-pubbox__footer-topline{
+					margin-right: -7px;
+
+					button.text-length{
+						margin-right: auto;
+						margin-left: 7px;
+					}
+				}
+
+				div.timeline-pubbox__footer-botline{
+					div.post-privacy{
+						margin-left: var(--cl-primary-offset-size);
+						margin-right: 0px;
+
+						button.privacy-settings{
+							div.dropdown-toggle{
+								span.d-inline-flex{
+									span.flex-item.label{
+										margin-right: 8px;
+									}
+								}
+							}
+						}
+					}
+
+					div.post-publication{
+						margin-right: auto;
+						margin-left: 0px;
+					}
+				}
+			}
+		}
+	}
+}

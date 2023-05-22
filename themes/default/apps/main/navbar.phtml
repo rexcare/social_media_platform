@@ -1,0 +1,90 @@
+<div class="header__navbar">
+    <div class="header__nav-left">
+        <span class="icon brand">
+            <?php echo cl_icon('logos/logo-twitter'); ?>
+        </span>
+        <form class="form sidebar-searchbar" style="padding-left: 20px" id="vue-main-search-app" v-on:submit="search_onsubmit" autocomplete="off">
+            <div class="sidebar-searchbar__input">	
+                <input v-model="search_query" v-on:input="search" type="text" class="form-control" placeholder="<?php echo cl_translate("Search"); ?>">
+                <span class="keyword-input__left-icon">
+                    <?php echo cl_icon("search"); ?>
+                </span>
+                <span class="keyword-input__right-spinner" v-if="searching">
+                    <?php echo cl_icon('spinner-icon'); ?>
+                </span>
+                <span v-on:click="cancel" class="keyword-input__right-icon" v-else-if="search_result">
+                    <?php echo cl_icon('close'); ?>
+                </span>
+            </div>
+            <div class="sidebar-searchbar__result" v-show="search_result">
+                <div class="search-result">
+                    <div class="search-result__body">
+                        <div class="search-result__list" data-an="result"></div>
+                    </div>
+                    <div class="search-result__footer" v-bind:class="{'disabled': (advanced_search != true)}">
+                        <a v-bind:href="search_page_url" data-spa="true">
+                            <button class="btn btn-custom main-outline md btn-block">
+                                <?php echo cl_translate('Advanced search'); ?>
+                            </button>
+                        </a>
+                    </div>
+                </div>						
+            </div>
+        </form>
+    </div>
+    <div class="header__nav-right">
+        <div class="header__nav-group">
+            <div data-navitem="notifications" class="header__nav-item  home-btn <?php if($cl['pn'] == '/') {echo('active');} ?>">
+                <span class="icon">
+                    <a href="<?php echo cl_link("/"); ?>" style="color: #000000; font-weight: bold;" data-spa="true">
+                        <?php echo cl_icon('home'); ?> Home
+                    </a>
+                </span>
+            </div>
+            <div data-navitem="notifications" class="header__nav-item <?php if($cl['pn'] == 'chat') {echo('active');} ?>">
+                <span class="icon">
+                    <a href="javascript:void(0);" data-spa="true" onclick="SMColibri.display_settings();">
+                        <?php echo cl_icon('abstract4'); ?>
+                    </a>
+                </span>
+            </div>
+            <div data-navitem="chat" class="header__nav-item <?php if($cl['pn'] == 'chat') {echo('active');} ?>">
+                <span class="icon">
+                    <a href="<?php echo cl_link("chats"); ?>" data-spa="true">
+                        <?php echo cl_icon('chat'); ?>
+                    </a>
+                </span>
+            </div>
+            <div data-navitem="notification" class="header__nav-item <?php if($cl['pn'] == 'notifications') {echo('active');} ?>">
+                <span class="icon">
+                    <a href="<?php echo cl_link("notifications"); ?>" data-spa="true">
+                        <?php echo cl_icon('notification'); ?>
+                        <span class="info-indicators" data-an="new-notifs"><?php echo fetch_or_get($me['new_notifs']); ?></span>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <div class="header__nav-group-avatar">
+            <div data-navitem="profile" class="header__nav-item avatar-btn <?php if($cl['pn'] == 'profile' && not_empty($cl["page_xdata"]) && not_empty($cl["page_xdata"]["is_me"])) {echo('active');} ?>">
+					<span class="icon avatar">
+						<img src="<?php echo($me['avatar']); ?>" alt="Avatar">
+					</span>
+					<span class="text" >
+						<a href="<?php echo($me["url"]); ?>" data-spa="true" style="color: white; padding: 7px">
+							<?php echo($me["name"]); ?>
+						</a>
+					</span>
+				</div>
+            <div data-navitem="notifications" style="padding: 10px" class="header__nav-item <?php if($cl['pn'] == 'notifications') {echo('active');} ?>">
+                <span class="icon">
+                    <a href="javascript:void(0);" onclick="SMColibri.logout();">
+                        <?php echo cl_icon('logout'); ?>
+                    </a>
+                </span>
+                <span class="text">
+                </span>
+            </div>
+        </div>
+    </div>    
+</div>

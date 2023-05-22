@@ -1,0 +1,90 @@
+<div class="cp-app-container" data-app="banktrans-receipts">
+    <div class="current-page-name">
+        <div class="lp">
+            <h2>
+                Bank transfers
+            </h2>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="<?php echo cl_link('admin_panel'); ?>">
+                        Control panel
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="javascript:void(0);">
+                        Bank transfers
+                    </a>
+                </li> 
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card" id="vue-cpanel-banktrans-receipts-app">
+                <div class="header">
+                    <h2>
+                        Wallet replenishment requests by bank transfers - ({{total_requests}})
+                    </h2>
+                </div>
+                <div class="body">
+                    <div class="regular-table">
+                        <table class="table table-hover no-mb">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        ID
+                                    </th>
+                                    <th>
+                                        Username
+                                    </th>
+                                    <th>
+                                        Amount
+                                    </th>
+                                    <th>
+                                        Currency
+                                    </th>
+                                    <th>
+                                        Transferred at
+                                    </th>
+                                    <th>
+                                        Action
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody data-an="requests-list">
+                                <?php if (not_empty($cl['requests'])): ?>
+                                    <?php foreach ($cl['requests'] as $cl['li']): ?>
+                                        <?php echo cl_template('cpanel/assets/banktrans_receipts/includes/list_item'); ?>
+                                    <?php endforeach; ?>
+                                <?php else: ?>
+                                    <tr>
+                                        <td colspan="6">
+                                            <div class="empty-table">
+                                                <span class="icon">
+                                                    <?php echo cl_ikon("feed"); ?>
+                                                </span>
+                                                <h4>No requests found</h4>
+                                                <p>
+                                                    It looks like your database doesn't have any requests to top up user wallet via bank transfer yet. All applications for replenishment through bank transfer will be displayed here
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                <?php endif; ?>
+                            </tbody>
+                        </table>
+                        <div class="table-pagination">
+                            <a v-if="show_ctrls" v-bind:class="{'disabled': dis_prev_ctrl}" v-on:click="paginate('up')" href="javascript:void(0);" class="pagination-ctrls prev">
+                                <?php echo cl_ikon("chevron-left"); ?>
+                            </a>
+                            <a v-if="show_ctrls" v-bind:class="{'disabled': dis_next_ctrl}" v-on:click="paginate('down')" href="javascript:void(0);" class="pagination-ctrls next">
+                                <?php echo cl_ikon("chevron-right"); ?>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php echo cl_template('cpanel/assets/banktrans_receipts/scripts/app_master_script'); ?>

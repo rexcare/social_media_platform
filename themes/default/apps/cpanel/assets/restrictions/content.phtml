@@ -1,0 +1,127 @@
+<div class="cp-app-container" data-app="restrictions">
+    <div class="current-page-name">
+        <div class="lp">
+            <h2>
+                User data restrictions
+            </h2>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="<?php echo cl_link('admin_panel'); ?>">
+                        Control panel
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="javascript:void(0);">
+                        User data restrictions
+                    </a>
+                </li> 
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>
+                        Managing user data restrictions
+                    </h2>
+                </div>
+                <div class="body">
+                    <form class="form" data-an="form">
+                        <div class="inline-alertbox-wrapper">
+                            <div class="inline-alertbox info">
+                                <div class="icon">
+                                    <?php echo cl_ikon("info"); ?>
+                                </div>
+                                <div class="alert-message">
+                                    <p>
+                                        With this feature, you can prevent users from using certain <b>@usernames</b> and email addresses. The exception is the full username, as there are no restrictions on it.
+                                        <br>
+                                        <br>
+                                        <strong class="col-red">
+                                            IMPORTANT!
+                                        </strong>
+                                        <br>
+                                        Please note that usernames and email addresses must not contain characters such as spaces or non-Latin characters or other prohibited characters that are not allowed during user registration
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    	<div class="form-group" data-an="username_restrictions-input">
+                            <label>
+                                Username restrictions
+                            </label>
+                            <div class="form-line">
+                                <textarea name="username_restrictions" class="form-control" placeholder="Enter comma-separated restricted usernames. E.g: username1, username2, username3">{%config username_restrictions%}</textarea>
+                            </div>
+                        </div>
+                        <div class="form-group" data-an="useremail_restrictions-input">
+                            <label>
+                                User email restrictions
+                            </label>
+                            <div class="form-line">
+                                <textarea name="useremail_restrictions" class="form-control" placeholder="Enter comma-separated restricted email addresses. E.g: email_address1@test.com, email_address2@test.com, email_address3@test.com">{%config useremail_restrictions%}</textarea>
+                            </div>
+                        </div>
+                        <div class="form-group no-mb">
+                       		<button data-an="submit-ctrl" type="submit" class="btn bg-blue btn-block btn-lg waves-effect ttup">
+                                Save changes
+                            </button>
+                        </div>
+                        <input type="hidden" class="d-none" value="<?php echo fetch_or_get($cl['csrf_token'],'none'); ?>" name="hash">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>
+                        Managing user data restrictions
+                    </h2>
+                </div>
+                <div class="body">
+                    <form class="form" data-an="form">
+                        <div class="inline-alertbox-wrapper">
+                            <div class="inline-alertbox warning">
+                                <div class="icon">
+                                    <?php echo cl_ikon("info"); ?>
+                                </div>
+                                <div class="alert-message">
+                                    <p>
+                                        With this function, you can prevent users from using non-binary genders, that is, leave the option: Male gender and Female gender and disable all others.
+                                        <br> <br>
+
+                                        You may need this if <strike>LGBT</strike> propaganda is prohibited in your country and because of this option you may be punished with a fine or court.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group" data-an="non_binary_gender-input">
+                                    <label>
+                                        Allow non-binary gender
+                                    </label>
+                                    <div class="form-line">
+                                        <select name="non_binary_gender" class="form-control selectpicker">
+                                            <option value="on" <?php if($cl['config']['non_binary_gender'] == 'on') { echo('selected'); } ?>>Allow</option>
+                                            <option value="off" <?php if($cl['config']['non_binary_gender'] == 'off') { echo('selected'); } ?>>Deny</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group no-mb">
+                            <button data-an="submit-ctrl" type="submit" class="btn bg-blue btn-block btn-lg waves-effect ttup">
+                                Save changes
+                            </button>
+                        </div>
+                        <input type="hidden" class="d-none" value="<?php echo fetch_or_get($cl['csrf_token'],'none'); ?>" name="hash">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php echo cl_template('cpanel/assets/restrictions/scripts/app_master_script'); ?>

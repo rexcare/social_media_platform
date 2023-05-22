@@ -1,0 +1,130 @@
+<div class="left-sb-container sidebar" data-app="left-sidebar">
+	<div class="sidebar__inner">
+		
+		<!-- start profile -->
+		<div class="user-profile">
+			<div class="user-profile__header">
+				<div class="user-profile__header-cover" style="border-radius: 5px 5px 0px 0px;">
+					<img src="<?php echo ($me['cover']); ?>" alt="IMG1">
+				</div>
+				<div class="user-profile__header-avatar" style="left: 72px;">
+					<a href="<?php echo ($me['avatar']); ?>" class="image-wrapper fbox-media">
+						<div class="profile-avatar">
+							<img src="<?php echo($me['avatar']); ?>" alt="Avatar">
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="user-profile__body" style="border-radius: 0px 0px 5px 5px; margin: 60px 0px 0px 0px; text-align: center;">
+
+				<div class="user-profile__name">
+					<h4>
+						<span class="user-name-holder">
+							<span class="user-name-holder__name">
+								<?php echo($me["name"]); ?>
+							</span>
+						</span>
+					</h4>
+					<a href="<?php echo ($me['url']); ?>" data-spa="true" style="margin-bottom: 15px">
+						@<?php echo ($me['username']); ?>
+					</a>
+					<span style="font-weight: bold; overflow-wrap:anywhere">
+						<?php echo ($me['about']); ?>
+					</span>
+				</div>
+				<hr/>
+				<div class="user-profile__counter">
+					<div class="user-profile__counter_part_left" style="width: 50%; margin: 0px 2px 0px 2px">
+						<span class="user-name-holder__badge" style="font-size: 20px; font-weight: bold;">
+							<?php echo cl_number($me['followers']); ?>
+						</span>
+						<span class="user-name-holder__follower">
+							<?php echo cl_translate("Followers"); ?>
+						</span>
+					</div>
+
+					<div class="user-profile__counter_part_right" style="width: 50%">
+						<span class="user-name-holder__badge" style="font-size: 20px; font-weight: bold;">
+							<?php echo cl_number($me['following']); ?>
+						</span>
+						<span class="user-name-holder__follower">
+							<?php echo cl_translate("Following"); ?>
+						</span>	
+					</div>
+				</div>
+				<hr/>
+				<div class="user-profile__view">
+					<a href="<?php echo ($me['url']); ?>" data-spa="true" style="padding-bottom: 20px; padding-top: 15px;">
+						Show Profile
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- end profile -->
+		
+		<!-- start who to follow -->
+		<div class="sidebar-content">
+		<div class="sidebar-content_users" >
+			<div class="sidebar-content__header" style="font-weight: bold;">
+				<?php echo cl_translate("People you may know"); ?>
+			</div>
+			<br>
+			<div class="sidebar-content__body">
+				<?php if (not_empty($cl['follow_suggestion'])): ?>
+					<div class="sidebar-users">
+						<?php foreach ($cl['follow_suggestion'] as $row): ?>
+							<div class="sidebar-users__item">
+								<div class="sidebar-users__item-avatar">
+									<a href="<?php echo($row['url']); ?>" class="block-link" data-spa="true">
+										<img src="<?php echo($row['avatar']); ?>" alt="avatar">
+									</a>
+								</div>
+								<div class="sidebar-users__item-data">
+									<div class="sidebar-users__item-name" data-uinfo-lbox="<?php echo($row['id']); ?>" data-toggle="popover" data-placement="top">
+										<a href="<?php echo($row['url']); ?>" class="block-link" data-spa="true">
+											<span class="user-name-holder">
+												<span class="user-name-holder__name">
+													<?php echo $row['name']; ?>
+												</span>
+
+												<?php if ($row['verified'] == '1'): ?>
+													<span class="user-name-holder__badge">
+														<?php echo cl_icon("verified_user_badge"); ?>
+													</span>
+												<?php endif; ?>
+											</span>
+										</a>
+									</div>
+									<div class="sidebar-users__item-followers">
+										<span>@<?php echo($row['username']); ?></span>
+									</div>
+								</div>
+								<div class="sidebar-users__item-action">
+									<!-- <button class="btn-custom main-inine md">follow</button> -->
+									<button onclick="SMColibri.follow(this);" data-user-name="Site Admin" class="btn btn-custom btn-block main-inline md" data-action="follow" data-id="1">
+										Follow
+									</button>
+								</div>
+							</div>
+						<?php endforeach; ?>
+					</div>
+				<?php else: ?>
+					<div class="sidebar-content-empty">
+						<?php echo cl_translate("Here will be a list of the most recommended people to follow"); ?>
+					</div>
+				<?php endif; ?>
+			</div>
+			<?php if (not_empty($cl['follow_suggestion'])): ?>
+				<div class="sidebar-content__footer">
+					<a class="show-more-followers" href="<?php echo cl_link("suggested"); ?>" data-spa="true" style="text-decoration: none;">
+						<?php echo cl_translate("Show more"); ?>
+					</a>
+				</div>
+			<?php endif; ?>
+			</div>
+		</div>
+		<!-- end who to follow -->
+
+	</div>
+</div>

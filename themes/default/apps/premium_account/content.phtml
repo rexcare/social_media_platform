@@ -1,0 +1,46 @@
+<div class="timeline-container" data-app="premium_account">
+	<div class="timeline-header" data-el="tl-header">
+		<div class="timeline-header__botline">
+			<div class="lp">
+				<div class="nav-link-holder">
+					<a href="<?php echo cl_link("premium_account"); ?>" data-spa="true">
+						<?php echo cl_translate('Premium account'); ?>
+					</a>
+				</div>
+			</div>
+			<div class="cp">
+				<a href="<?php echo cl_link('/'); ?>">
+					<img src="{%config site_logo%}" alt="Logo">
+				</a>
+			</div>
+			<div class="rp">
+				<div class="nav-link-holder">
+					<span class="go-back" onclick="SMColibri.go_back();">
+						<?php echo cl_icon('arrow_back'); ?>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="timeline-placeholder">
+		<div class="icon">
+			<div class="icon__bg icon__bg_success">
+				<?php echo cl_icon('workspace_premium'); ?>
+			</div>
+		</div>
+		<div class="pl-message">
+			<h4>
+				<?php echo cl_translate('Switch to {@site_name@} premium account', array("site_name" => $cl["config"]["name"])); ?>
+			</h4>
+			<p>
+				<?php echo cl_translate("Subscribing to a premium account gives you the ability to flexibly customize your account and get access to premium features like the ad free content timeline, and many other features, the list of which will only grow"); ?>
+			</p>
+		</div>
+		<div class="c2action-single">
+			<button class="btn btn-custom main-outline lg" onclick="SMColibri.PS.premium_account.buy();">
+				<?php echo cl_translate("Upgrade to premium - {@price@}/Per month", array("price" => cl_money($cl["config"]["premium_account_mprice"]))); ?>
+			</button>
+		</div>
+	</div>
+	<?php echo cl_template('premium_account/scripts/app_master_script'); ?>
+</div>

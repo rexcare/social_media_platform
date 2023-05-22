@@ -1,0 +1,107 @@
+// @*************************************************************************@
+// @ Software author: Mansur Altamirov (Mansur_TL)							 @
+// @ Author_url 1: https://www.instagram.com/mansur_tl                       @
+// @ Author_url 2: http://codecanyon.net/user/mansur_tl                      @
+// @ Author E-mail: vayart.help@gmail.com                                    @
+// @*************************************************************************@
+// @ ColibriSM - The Ultimate Modern Social Media Sharing Platform           @
+// @ Copyright (c) 2020 - 2021 ColibriSM. All rights reserved.               @
+// @*************************************************************************@
+
+div.timeline-posts-container{
+	div.timeline-posts-ls{
+		div.post-list-item{
+			div.post-list-item__header{
+				padding-left: 0px;
+				padding-right: 67px;
+			}
+
+			div.post-list-item__content{
+				div.post-data{
+					div.post-data__content{
+						padding-right: var(--cl-primary-offset-size);
+						padding-left: 0px;
+
+						div.post-data__content-inner{
+							div.post-data-layout{
+								div.post-data-layout__content{
+									div.publication-images-collage{
+										a.fbox-media{
+											margin-right: 0px;
+											margin-left: 5px;
+										}
+									}
+
+									div.publication-document{
+										a.document-file{
+											div.document-file__type{
+												margin-right: 5px;
+												margin-left: 5px;
+												border-left: 0px;
+												border-right: 2px solid var(--cl-secondary-border-color);
+												padding-right: 10px;
+												padding-left: 0px;
+											}
+										}
+									}
+
+									div.publication-poll{
+										div.publication-poll__inner{
+											div.publication-poll__option{
+												flex-direction: row-reverse;
+											}
+										}
+									}
+								}
+							
+								div.post-data-layout__controls{
+									margin-left: 0px;
+									margin-right: -10px;
+								}
+							}
+						}
+
+						div.post-data__content-hidden{
+							div.soft-hidden-post{
+								div.d-flex{
+									flex-direction: row-reverse !important;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			div.post-placeholder{
+				div.icon{
+					margin-right: 0px;
+					margin-left: 15px;
+				}
+
+				p{
+					margin-right: 0px;
+					margin-left: 15px;
+				}
+			}
+		}
+
+		div.post-list-advert{
+			div.post-list-advert__header{
+				div.post-list-advert__sponsor{
+					margin-right: 0;
+					margin-left: var(--cl-primary-offset-size);
+
+					span.post-list-advert__sponsor-label{
+						margin-left: 0px;
+						margin-right: 5px;
+
+						a{
+							margin-left: 0px;
+							margin-right: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

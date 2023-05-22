@@ -1,0 +1,117 @@
+// @*************************************************************************@
+// @ Software author: Mansur Altamirov (Mansur_TL)							 @
+// @ Author_url 1: https://www.instagram.com/mansur_tl                       @
+// @ Author_url 2: http://codecanyon.net/user/mansur_tl                      @
+// @ Author E-mail: vayart.help@gmail.com                                    @
+// @*************************************************************************@
+// @ ColibriSM - The Ultimate Modern Social Media Sharing Platform           @
+// @ Copyright (c) 2020 - 2021 ColibriSM. All rights reserved.               @
+// @*************************************************************************@
+
+body[dir="rtl"]{
+	&.cl-app-thread{
+		main.main-content-container{
+			div.main-content-container-inner{
+				div.timeline-container-wrapper{
+					div.timeline-container{
+						div.timeline-posts-container{
+							div.timeline-posts-ls{
+								&.thread-chain{
+									div.post-list-item{
+										&:after{
+											right: 80px;
+											left: var(--cl-primary-offset-size);
+
+											@include media-breakpoint-down(xl) {
+												right: 52px;
+											}
+										}
+									}
+								}
+
+								&.thread-data{
+									div.post-list-item{
+										div.post-list-item__content{
+											div.post-data{
+												div.post-data__content{
+													padding-right: 0px;
+
+													div.post-data__content-inner{
+														div.post-data-layout{
+															div.post-data-layout__publisher{
+																div.post-avatar{
+																	margin-left: var(--cl-primary-offset-size);
+																	margin-right: 0px;
+																}
+															}
+
+															div.post-data-layout__date{
+																div.publication-date{
+																	margin-left: 0px;
+																	margin-left: 5px;
+																}
+
+																div.publication-target{
+																	margin-left: 0px;
+																	margin-right: 15px;
+
+																	&:before{
+																		left: auto;
+																		right: -10px;
+																	}
+																}
+
+																div.publication-privacy{
+																	margin-right: auto;
+																	margin-left: 0px;
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+
+								&.thread-replys{
+									div.timeline-posts-ls-group{
+										border-top: 2px solid var(--cl-primary-border-color);
+
+										&:hover,&:active{
+											background: var(--cl-event-hover-bg);
+										}
+
+										&:first-child{
+											border-top: none;
+										}
+
+										div.timeline-posts-ls-group-inner{
+											div.post-list-item{
+												&::after{
+													right: 80px;
+													left: var(--cl-primary-offset-size);
+
+
+													@include media-breakpoint-down(xl) {
+														right: 52px;
+													}
+												}
+											}
+										}
+
+										div.show-thread{
+											a{
+												flex-direction: row-reverse;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

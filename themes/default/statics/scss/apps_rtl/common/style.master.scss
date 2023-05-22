@@ -1,0 +1,78 @@
+// @*************************************************************************@
+// @ Software author: Mansur Altamirov (Mansur_TL)							 @
+// @ Author_url 1: https://www.instagram.com/mansur_tl                       @
+// @ Author_url 2: http://codecanyon.net/user/mansur_tl                      @
+// @ Author E-mail: vayart.help@gmail.com                                    @
+// @*************************************************************************@
+// @ ColibriSM - The Ultimate Modern Social Media Sharing Platform           @
+// @ Copyright (c) 2020 - 2021 ColibriSM. All rights reserved.               @
+// @*************************************************************************@
+
+body[dir="rtl"]{
+	main.main-content-container{
+		div.main-content-container-inner{			
+			div.timeline-container-wrapper{
+				div.timeline-container-inner{
+					div.timeline-container{
+						@import "parts/_header";
+
+						@import "parts/_searchbar";
+
+						@import "parts/_publication";
+
+						@import "parts/_nav_tabs";
+
+						@import "parts/_users";
+
+						@import "parts/_hashtags";
+
+						@import "parts/_alert";
+					}
+				}
+			}
+
+			@import "navbars/_left";
+
+			@import "navbars/_right";
+		}
+	}
+
+	@import "parts/_forms";
+
+	@import "parts/_helpers";
+
+	@import "parts/_modals";
+
+	@import "parts/_dropdowns";
+
+	@import "parts/_pubbox";
+
+	@import "parts/_uname_popover";
+
+	@include media-breakpoint-down(xl) {
+		div.mobile-bottom-navbar{
+			display: block;
+		}
+
+		&.mobile-sb-open{
+			overflow: hidden;
+
+			div.sb-open-overlay{
+				cursor: pointer;
+				-moz-transition: right 0.5s;
+			    -o-transition: right 0.5s;
+			    -webkit-transition: right 0.5s;
+			    transition: right 0.5s;
+				position: fixed;
+				left: 0;
+				top: 0;
+				width: 100vw;
+				height: 100vh;
+				bottom: 0;
+				right: 0;
+				background-color: rgba(0, 0, 0, 0.4);
+				z-index: 4950;
+			}
+		}
+	}
+}

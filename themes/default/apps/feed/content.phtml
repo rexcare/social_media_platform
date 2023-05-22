@@ -1,0 +1,60 @@
+<div class="timeline-container" data-app="feed">
+	<div class="timeline-header" data-el="tl-header">
+		<div class="timeline-header__botline">
+			<div class="lp">
+				<div class="nav-link-holder">
+					<a href="<?php echo cl_link('feed'); ?>" data-spa="true">
+						<?php echo cl_translate("Feed"); ?>
+					</a>
+				</div>
+			</div>
+			<div class="cp">
+				<a href="<?php echo cl_link('/'); ?>">
+					<img src="{%config site_logo%}" alt="Logo">
+				</a>
+			</div>
+			<div class="rp">
+				<div class="nav-link-holder">
+					<a href="<?php echo cl_link("guest"); ?>" class="go-forward">
+						<?php echo cl_icon("login"); ?>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<?php if (not_empty($cl["feed"])): ?>
+		<div class="timeline-posts-container">
+			<div class="timeline-posts-ls" data-an="entry-list">
+				<?php foreach ($cl["feed"] as $cl['li']): ?>
+					<?php echo cl_template('timeline/post'); ?>
+				<?php endforeach; ?>
+			</div>
+
+			<?php if (count($cl["feed"]) == 30): ?>
+				<div class="timeline-data-loader">
+					<button class="btn btn-custom main-outline lg" data-an="load-more">
+						<?php echo cl_translate("Show more"); ?>
+					</button>
+				</div>
+			<?php endif; ?>
+		</div>
+	<?php else: ?>
+		<div class="timeline-placeholder">
+			<div class="icon">
+				<div class="icon__bg">
+					<?php echo cl_icon('feed'); ?>
+				</div>
+			</div>
+			<div class="pl-message">
+				<h4>
+					<?php echo cl_translate("No data to display yet!"); ?>
+				</h4>
+				<p>
+					<?php echo cl_translate("It looks like the site has no content to display yet. All featured posts will be displayed on this page"); ?>
+				</p>
+			</div>
+		</div>
+	<?php endif; ?>
+	
+	<?php echo cl_template('feed/scripts/app_master_script'); ?>
+</div>

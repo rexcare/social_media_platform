@@ -1,0 +1,95 @@
+<div class="timeline-container" data-app="homepage" style="display: flex; flex-direction: column; gap: 30px;">
+	<div class="timeline-header" data-el="tl-header">
+		<div class="timeline-header__botline">
+			<div class="lp">
+				<div class="nav-link-holder">
+					<a href="<?php echo cl_link("/"); ?>" data-spa="true">
+						<?php echo cl_translate("Home"); ?>
+					</a>
+				</div>
+			</div>
+			<div class="cp">
+				<a href="<?php echo cl_link("/"); ?>">
+					<img src="{%config site_logo%}" alt="Logo">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="homepage" style="display: flex; flex-direction: column; gap: 30px;">
+		
+		<?php if ($cl["config"]["swift_system_status"] == "on"): ?>
+			<div class="homepage__swifts">
+				<div class="swifts-slider">
+					<div class="swiper" id="homepage-swifts-slider">
+						<h4 class="swifts-text_story" style="font-weight: bold;">Story</h4>
+						<div class="swiper-wrapper">							
+							<div class="swiper-slide">
+								<div class="swift-item" onclick="SMColibri.PS.new_swift.add_swift();">
+									<div class="swift-item__body create-swift">
+										<div class="swift-item__avatar">
+											<img src="<?php echo($me['avatar']); ?>" alt="Avatar">
+										</div>
+										<span class="add-ikon">
+											<?php echo cl_icon("add"); ?>
+										</span>
+									</div>
+									<div class="swift-item__footer">
+										<?php echo cl_translate("Create new swift"); ?>
+									</div>
+								</div>
+							</div>
+
+							<?php if (not_empty($cl["tl_swifts"])): ?>
+								<?php foreach ($cl["tl_swifts"] as $swift_id => $swift_data): ?>
+									<div class="swiper-slide">
+										<div data-an="swift-item-<?php echo($swift_data['id']); ?>" class="swift-item <?php if(not_empty($swift_data['has_unseen'])) {echo('active');} ?>" onclick="SMColibri.PS.play_swift.show('<?php echo($swift_id); ?>');">
+											<div class="swift-item__body">
+												<div class="swift-item__avatar">
+													<img src="<?php echo($swift_data['avatar']); ?>" alt="Avatar">
+												</div>
+											</div>
+											<div class="swift-item__footer">
+												<?php if (not_empty($swift_data["is_user"])): ?>
+													<?php echo cl_translate("Your swifts"); ?>
+												<?php else: ?>
+													<?php echo($swift_data['name']); ?>
+												<?php endif; ?>
+											</div>
+										</div>
+									</div>
+								<?php endforeach; ?>
+							<?php endif; ?>
+						</div>
+					</div>
+					<!-- <div class="swifts-slider__footer">
+						<div class="swiper-scrollbar" id="homepage-swifts-scrollbar"></div>
+					</div> -->
+				</div>
+			</div>
+		<?php endif; ?>
+		<div class="homepage__pubbox">
+			<?php $cl['pb_id'] = 1; echo cl_template('timeline/pubbox'); ?>
+		</div>
+
+	</div>
+
+	<div class="timeline-posts-container" >
+		<?php if (not_empty($cl["tl_feed"])): ?>
+			<div class="timeline-posts-ls" data-an="entry-list" style="display: flex; flex-direction: column; gap: 10px;">		
+				<?php foreach ($cl["tl_feed"] as $cl["li"]): ?>
+					<?php echo cl_template('timeline/post'); ?>
+				<?php endforeach; ?>
+			</div>
+		<?php else: ?>
+			<?php echo cl_template('home/includes/no_posts'); ?>
+		<?php endif; ?>
+	</div>
+
+	<?php if ($cl["config"]["swift_system_status"] == "on"): ?>
+		<?php echo cl_template("home/modals/swift_lightbox"); ?>
+		<?php echo cl_template("home/modals/swift_pubbox"); ?>
+	<?php endif; ?>
+
+	<?php echo cl_template("main/includes/inline_statics/app_statics"); ?>
+	<?php echo cl_template("home/scripts/app_master_script"); ?>
+</div>

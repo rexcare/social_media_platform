@@ -1,0 +1,528 @@
+/* ===================================================== */
+body[dir="rtl"].cl-app-ads div.ads-management div.ads-management__upsert div.form-group div.multiselect-toggle-all div.form-check label {
+  margin-right: 30px; }
+
+/* ===================================================== */
+body[dir="rtl"].cl-app-affiliates div.affiliates div.affiliates__payouts div.affiliates-transactions div.affiliates-transactions__item div.rp {
+  padding-left: 0px;
+  padding-right: var(--cl-primary-offset-size); }
+body[dir="rtl"].cl-app-affiliates div.modal.affiliates-workflow div.modal-body div.affiliates-workflow-list div.list-item div.list-item__mp {
+  margin-left: 0px;
+  margin-right: var(--cl-primary-offset-size); }
+
+/* ===================================================== */
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-header div.timeline-header__botline div.lp.lp__avatar div.nav-link-avatar {
+  margin-right: 0px;
+  margin-left: 7px; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-searchbar form.timeline-searchbar__form div.keyword-input span.keyword-input__left-icon {
+  right: 0px;
+  left: auto; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-searchbar form.timeline-searchbar__form div.keyword-input span.keyword-input__right-spinner {
+  left: 0px;
+  right: auto; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-searchbar form.timeline-searchbar__form div.keyword-input span.keyword-input__right-icon {
+  left: 0px;
+  right: auto; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-list-item__header {
+  padding-left: 0px;
+  padding-right: 67px; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-list-item__content div.post-data div.post-data__content {
+  padding-right: var(--cl-primary-offset-size);
+  padding-left: 0px; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__content div.publication-images-collage a.fbox-media {
+    margin-right: 0px;
+    margin-left: 5px; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__content div.publication-document a.document-file div.document-file__type {
+    margin-right: 5px;
+    margin-left: 5px;
+    border-left: 0px;
+    border-right: 2px solid var(--cl-secondary-border-color);
+    padding-right: 10px;
+    padding-left: 0px; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__content div.publication-poll div.publication-poll__inner div.publication-poll__option {
+    flex-direction: row-reverse; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__controls {
+    margin-left: 0px;
+    margin-right: -10px; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-hidden div.soft-hidden-post div.d-flex {
+    flex-direction: row-reverse !important; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-placeholder div.icon {
+  margin-right: 0px;
+  margin-left: 15px; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-placeholder p {
+  margin-right: 0px;
+  margin-left: 15px; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-advert div.post-list-advert__header div.post-list-advert__sponsor {
+  margin-right: 0;
+  margin-left: var(--cl-primary-offset-size); }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-advert div.post-list-advert__header div.post-list-advert__sponsor span.post-list-advert__sponsor-label {
+    margin-left: 0px;
+    margin-right: 5px; }
+    body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-advert div.post-list-advert__header div.post-list-advert__sponsor span.post-list-advert__sponsor-label a {
+      margin-left: 0px;
+      margin-right: 5px; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-navbar div.timeline-navbar__item a button.timeline-navbar__item-btn span.btn-flex-inner span.text {
+  margin-right: 5px; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data {
+  padding-left: 0;
+  padding-right: var(--cl-primary-offset-size); }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-left {
+    margin-left: var(--cl-primary-offset-size);
+    margin-right: 0px; }
+    body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-left div.user-data__stats div.stats-item {
+      margin-right: 0px;
+      margin-left: var(--cl-primary-offset-size); }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center; }
+    body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: 100%; }
+      body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon svg {
+        width: 26px;
+        height: 26px;
+        fill: var(--cl-secondary-text-color); }
+      body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon::before, body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon::after {
+        display: none; }
+    body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:hover a.icon, body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:active a.icon, body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:focus a.icon {
+      background: var(--cl-secondary-bg-color); }
+      body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:hover a.icon svg, body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:active a.icon svg, body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:focus a.icon svg {
+        fill: var(--cl-primary-color); }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__common div.common-follows div.common-follows__list {
+    margin-left: 0px;
+    margin-right: 7px; }
+    body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__common div.common-follows div.common-follows__list div.common-follows__item {
+      margin-right: -7px;
+      margin-left: 0px; }
+      body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__common div.common-follows div.common-follows__list div.common-follows__item.common-follows__item_total {
+        margin-left: 0px; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-hashtags-container div.timeline-hashtags-ls div.hashtag-list-item div.hashtag-data div.hashtag-data__body {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-hashtags-container div.timeline-hashtags-ls div.hashtag-list-item div.hashtag-data div.hashtag-data__body span:last-child {
+    margin-left: 0px;
+    margin-right: 5px; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-alert-container div.timeline-alert div.timeline-alert__icon {
+  order: -1; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-alert-container div.timeline-alert div.timeline-alert__text {
+  margin-right: var(--cl-primary-offset-size);
+  text-align: right; }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.left-sb-container {
+  -moz-transition: right 0.5s;
+  -o-transition: right 0.5s;
+  -webkit-transition: right 0.5s;
+  transition: right 0.5s; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner {
+    padding: var(--cl-primary-offset-size) 0px var(--cl-primary-offset-size) 50px; }
+    body[dir="rtl"] main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.sidebar__nav div.sidebar__nav-group div.sidebar__nav-item span.text {
+      margin-right: 15px; }
+    body[dir="rtl"] main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.sidebar__button button span.btn-icon {
+      margin-left: 10px; }
+  @media (max-width: 1199.98px) {
+    body[dir="rtl"] main.main-content-container div.main-content-container-inner div.left-sb-container {
+      right: -330px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+      body[dir="rtl"] main.main-content-container div.main-content-container-inner div.left-sb-container.show {
+        right: 0px; }
+      body[dir="rtl"] main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.sidebar__footer {
+        display: block; } }
+body[dir="rtl"] main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner {
+  padding: var(--cl-primary-offset-size) 50px var(--cl-primary-offset-size) 0px; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner div.right-sidebar div.right-sidebar__header form.sidebar-searchbar div.sidebar-searchbar__input input {
+    padding: 0px 40px 0px 15px; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner div.right-sidebar div.right-sidebar__header form.sidebar-searchbar div.sidebar-searchbar__input span.keyword-input__left-icon {
+    right: 0px; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner div.right-sidebar div.right-sidebar__header form.sidebar-searchbar div.sidebar-searchbar__input span.keyword-input__right-spinner {
+    left: 0px;
+    right: auto; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner div.right-sidebar div.right-sidebar__header form.sidebar-searchbar div.sidebar-searchbar__input span.keyword-input__right-icon {
+    left: 0px;
+    right: auto; }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner div.right-sidebar div.right-sidebar__header form.sidebar-searchbar div.sidebar-searchbar__result div.search-result div.search-result__body div.search-result__list div.search-result__list-item a div.result-item-data div.result-item-data__data {
+    margin-right: var(--cl-primary-offset-size); }
+  body[dir="rtl"] main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner div.right-sidebar div.right-sidebar__body div.sidebar-content div.sidebar-content__body div.sidebar-users div.sidebar-users__item div.sidebar-users__item-data {
+    padding: 0px var(--cl-primary-offset-size) 0px 0px; }
+body[dir="rtl"] form div.form-group div.password-ctrl button.password-ctrl {
+  right: auto;
+  left: 15px; }
+body[dir="rtl"] form div.form-group div.vue-dropdown-select button.dropdown-toggle {
+  text-align: right; }
+  body[dir="rtl"] form div.form-group div.vue-dropdown-select button.dropdown-toggle::after {
+    right: auto;
+    left: 20px; }
+body[dir="rtl"] form div.form-group div.form-tos div.form-check label.form-check-label {
+  margin-left: 0px;
+  margin-right: var(--cl-primary-offset-size); }
+body[dir="rtl"] span.user-name-holder span.user-name-holder__badge {
+  margin-right: 2px; }
+body[dir="rtl"] div.modal {
+  z-index: 7000; }
+  body[dir="rtl"] div.modal {
+    -ms-overflow-style: none;
+    scrollbar-width: none; }
+  body[dir="rtl"] div.modal::-webkit-scrollbar {
+    display: none; }
+  body[dir="rtl"] div.modal.vh-center.show {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: center !important; }
+    body[dir="rtl"] div.modal.vh-center.show div.modal-dialog {
+      flex: 1; }
+  body[dir="rtl"] div.modal div.modal-content {
+    background: var(--cl-primary-bg-color);
+    border: none;
+    box-shadow: var(--cl-primary-box-shadow);
+    border-radius: var(--cl-tertiary-border-radius); }
+    body[dir="rtl"] div.modal div.modal-content div.modal-header {
+      padding: var(--cl-primary-offset-size) 20px;
+      border-bottom: 1px solid var(--cl-primary-border-color); }
+      body[dir="rtl"] div.modal div.modal-content div.modal-header div.modal-header__inner {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between; }
+        body[dir="rtl"] div.modal div.modal-content div.modal-header div.modal-header__inner h5 {
+          font-size: 16px;
+          line-height: 1;
+          color: var(--cl-primary-text-color);
+          font-weight: 500;
+          text-transform: uppercase; }
+        body[dir="rtl"] div.modal div.modal-content div.modal-header div.modal-header__inner span.dismiss-modal {
+          padding: 0;
+          margin: 0;
+          width: 35px;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          border-radius: 100%; }
+          body[dir="rtl"] div.modal div.modal-content div.modal-header div.modal-header__inner span.dismiss-modal svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--cl-secondary-text-color); }
+          body[dir="rtl"] div.modal div.modal-content div.modal-header div.modal-header__inner span.dismiss-modal:hover, body[dir="rtl"] div.modal div.modal-content div.modal-header div.modal-header__inner span.dismiss-modal:active {
+            background: var(--cl-secondary-bg-color); }
+            body[dir="rtl"] div.modal div.modal-content div.modal-header div.modal-header__inner span.dismiss-modal:hover svg, body[dir="rtl"] div.modal div.modal-content div.modal-header div.modal-header__inner span.dismiss-modal:active svg {
+              fill: var(--cl-primary-color); }
+    body[dir="rtl"] div.modal div.modal-content div.modal-body {
+      padding: var(--cl-primary-offset-size) 20px; }
+      body[dir="rtl"] div.modal div.modal-content div.modal-body.no-padding {
+        padding: 0px; }
+      body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data {
+        padding-left: 0;
+        padding-right: var(--cl-primary-offset-size); }
+        body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-left {
+          margin-left: var(--cl-primary-offset-size);
+          margin-right: 0px; }
+          body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-left div.user-data__stats div.stats-item {
+            margin-right: 0px;
+            margin-left: var(--cl-primary-offset-size); }
+        body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft {
+          background: transparent;
+          border: none;
+          box-shadow: none;
+          outline: none;
+          padding: 0;
+          margin: 0;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center; }
+          body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+            border-radius: 100%; }
+            body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon svg {
+              width: 26px;
+              height: 26px;
+              fill: var(--cl-secondary-text-color); }
+            body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon::before, body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon::after {
+              display: none; }
+          body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:hover a.icon, body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:active a.icon, body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:focus a.icon {
+            background: var(--cl-secondary-bg-color); }
+            body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:hover a.icon svg, body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:active a.icon svg, body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:focus a.icon svg {
+              fill: var(--cl-primary-color); }
+        body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__common div.common-follows div.common-follows__list {
+          margin-left: 0px;
+          margin-right: 7px; }
+          body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__common div.common-follows div.common-follows__list div.common-follows__item {
+            margin-right: -7px;
+            margin-left: 0px; }
+            body[dir="rtl"] div.modal div.modal-content div.modal-body div.post-likes div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__common div.common-follows div.common-follows__list div.common-follows__item.common-follows__item_total {
+              margin-left: 0px; }
+    body[dir="rtl"] div.modal div.modal-content div.modal-footer {
+      border-top: 1px solid var(--cl-primary-border-color);
+      padding: var(--cl-primary-offset-size) 20px; }
+  body[dir="rtl"] div.modal.share-post-modal div.raw-link div.link-input input {
+    text-align: left; }
+body[dir="rtl"] .dropdown div.dropdown-menu a.dropdown-item, body[dir="rtl"] .dropleft div.dropdown-menu a.dropdown-item, body[dir="rtl"] .dropright div.dropdown-menu a.dropdown-item, body[dir="rtl"] .dropup div.dropdown-menu a.dropdown-item {
+  text-align: right; }
+body[dir="rtl"] .dropdown div.dropdown-menu.dropdown-icons a.dropdown-item span.flex-item.dropdown-item-icon, body[dir="rtl"] .dropleft div.dropdown-menu.dropdown-icons a.dropdown-item span.flex-item.dropdown-item-icon, body[dir="rtl"] .dropright div.dropdown-menu.dropdown-icons a.dropdown-item span.flex-item.dropdown-item-icon, body[dir="rtl"] .dropup div.dropdown-menu.dropdown-icons a.dropdown-item span.flex-item.dropdown-item-icon {
+  margin-left: 12px;
+  margin-right: 0px; }
+  body[dir="rtl"] .dropdown div.dropdown-menu.dropdown-icons a.dropdown-item span.flex-item.dropdown-item-icon.dropdown-item-icon_adinfo, body[dir="rtl"] .dropleft div.dropdown-menu.dropdown-icons a.dropdown-item span.flex-item.dropdown-item-icon.dropdown-item-icon_adinfo, body[dir="rtl"] .dropright div.dropdown-menu.dropdown-icons a.dropdown-item span.flex-item.dropdown-item-icon.dropdown-item-icon_adinfo, body[dir="rtl"] .dropup div.dropdown-menu.dropdown-icons a.dropdown-item span.flex-item.dropdown-item-icon.dropdown-item-icon_adinfo {
+    margin-right: 12px;
+    margin-left: 0px; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox button.delete-preview {
+  left: 5px;
+  right: auto; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__header div.timeline-pubbox__textinput div.pubbox-input {
+  margin-right: var(--cl-primary-offset-size); }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__autocomplete div.pubbox-autocomplete div.pubbox-autocomplete__usernames, body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__autocomplete div.pubbox-autocomplete div.pubbox-autocomplete__hashtags {
+  left: auto;
+  right: 0px; }
+  body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__autocomplete div.pubbox-autocomplete div.pubbox-autocomplete__usernames div.pubbox-autocomplete__usernames-list div.username-list-item div.username-list-item__username, body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__autocomplete div.pubbox-autocomplete div.pubbox-autocomplete__hashtags div.pubbox-autocomplete__usernames-list div.username-list-item div.username-list-item__username {
+    padding-right: var(--cl-primary-offset-size);
+    padding-left: 0px; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__audio div.pubbox-audio div.pubbox-audio__player {
+  margin-left: var(--cl-primary-offset-size);
+  margin-right: 0px; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__doc div.pubbox-document div.pubbox-document__body {
+  margin-right: 0px;
+  margin-left: var(--cl-primary-offset-size); }
+  body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__doc div.pubbox-document div.pubbox-document__body div.pubbox-document__name {
+    margin-right: 10px;
+    margin-left: 0px; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__gifs div.pubbox-gifs div.pubbox-gifs__loader div.pubbox-gifs__loader-searchbar div.searchbar-input {
+  margin-right: 0px;
+  margin-left: var(--cl-primary-offset-size); }
+  body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__gifs div.pubbox-gifs div.pubbox-gifs__loader div.pubbox-gifs__loader-searchbar div.searchbar-input span.searchbar-input__icon {
+    right: 0px; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__poll div.pubbox-poll div.pubbox-poll__body div.pubbox-poll__inputs div.pubbox-poll__input-item div.form-group small {
+  left: 10px;
+  right: auto; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__body div.timeline-pubbox__poll div.pubbox-poll div.pubbox-poll__footer button.btn:last-child {
+  margin-right: var(--cl-primary-offset-size);
+  margin-left: 0px; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__footer div.timeline-pubbox__footer-topline {
+  margin-right: -7px; }
+  body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__footer div.timeline-pubbox__footer-topline button.text-length {
+    margin-right: auto;
+    margin-left: 7px; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__footer div.timeline-pubbox__footer-botline div.post-privacy {
+  margin-left: var(--cl-primary-offset-size);
+  margin-right: 0px; }
+  body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__footer div.timeline-pubbox__footer-botline div.post-privacy button.privacy-settings div.dropdown-toggle span.d-inline-flex span.flex-item.label {
+    margin-right: 8px; }
+body[dir="rtl"] div.timeline-pubbox-container form.form div.timeline-pubbox div.timeline-pubbox__footer div.timeline-pubbox__footer-botline div.post-publication {
+  margin-right: auto;
+  margin-left: 0px; }
+body[dir="rtl"] div.popover div.user-infobox div.user-infobox__header div.avatar {
+  margin-left: auto;
+  margin-right: var(--cl-primary-offset-size); }
+body[dir="rtl"] div.popover div.user-infobox div.user-infobox__body {
+  padding: var(--cl-primary-offset-size); }
+  body[dir="rtl"] div.popover div.user-infobox div.user-infobox__body div.user-data div.user-data__counter div.counter-item {
+    margin-right: 0px;
+    margin-left: var(--cl-primary-offset-size); }
+@media (max-width: 1199.98px) {
+  body[dir="rtl"] div.mobile-bottom-navbar {
+    display: block; }
+  body[dir="rtl"].mobile-sb-open {
+    overflow: hidden; }
+    body[dir="rtl"].mobile-sb-open div.sb-open-overlay {
+      cursor: pointer;
+      -moz-transition: right 0.5s;
+      -o-transition: right 0.5s;
+      -webkit-transition: right 0.5s;
+      transition: right 0.5s;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 4950; } }
+
+/* ===================================================== */
+body[dir="rtl"].cl-app-conversation div.conversation div.conversation__body div.conversation-messages div.conversation-messages__item.right div.message-data div.message-data__ctrls {
+  margin-right: 0px;
+  margin-left: var(--cl-primary-offset-size); }
+body[dir="rtl"].cl-app-conversation div.conversation div.conversation__body div.conversation-messages div.conversation-messages__item.right div.message-time {
+  text-align: left; }
+body[dir="rtl"].cl-app-conversation div.conversation div.conversation__body div.conversation-messages div.conversation-messages__item.left div.message-data div.message-data__ctrls {
+  margin-left: 0px;
+  margin-right: var(--cl-primary-offset-size); }
+body[dir="rtl"].cl-app-conversation div.conversation div.conversation__footer form.form div.message-input button.message-input__ctrl:first-child {
+  order: 1; }
+body[dir="rtl"].cl-app-conversation div.conversation div.conversation__footer form.form div.message-input button.message-input__ctrl:last-child {
+  order: -1; }
+
+/* ===================================================== */
+body[dir="rtl"].cl-app-guest div.welcome-page div.welcome-page__body div.welcome-page__rp {
+  display: flex;
+  justify-content: flex-end; }
+
+/* ===================================================== */
+body.cl-app-wallet_send div.wallet-send div.account-wallet__card div.wallet-balance div.wallet-balance__amount {
+  padding-left: var(--cl-primary-offset-size);
+  padding-right: 0px; }
+body.cl-app-wallet_send div.wallet-send div.wallet-send__form form.form div.recipients-search-input span.input-spinner {
+  right: auto;
+  left: 0px; }
+body.cl-app-wallet_send div.wallet-send div.wallet-send__form form.form div.recipients-list div.recipients-list__body div.recipients-list div.recipients-list__item div.recipients-list__item-username {
+  padding-left: 0px;
+  padding-right: var(--cl-primary-offset-size); }
+
+/* ===================================================== */
+body[dir="rtl"].cl-app-home div.swift-player div.swift-player__body div.swift-data div.swift-data__header div.swift-data__header-botline div.swift-publisher div.swift-publisher__username {
+  margin-left: 0px;
+  margin-right: var(--cl-primary-offset-size); }
+body[dir="rtl"].cl-app-home div.swift-player div.swift-player__body div.swift-data div.swift-data__views div.swift-views div.swift-views__list div.swift-views__list-item div.userdata {
+  padding-left: 0px;
+  padding-right: var(--cl-primary-offset-size); }
+body[dir="rtl"].cl-app-home div.modal.modal-swift-pubbox div.modal-body form.form div.swift-pubbox button.delete-preview {
+  right: auto;
+  left: 5px;
+  border-radius: 100%; }
+body[dir="rtl"].cl-app-home div.modal.modal-swift-pubbox div.modal-body form.form div.swift-pubbox div.swift-pubbox__ctrls button.ctrl-item.text-length {
+  margin-left: 0px;
+  margin-right: auto; }
+
+/* ===================================================== */
+body[dir="rtl"].cl-app-chat div.chats div.chat-contacts div.contacts-list__item a div.contact-data div.contact-data__body {
+  padding-left: 0px;
+  padding-right: var(--cl-primary-offset-size); }
+  body[dir="rtl"].cl-app-chat div.chats div.chat-contacts div.contacts-list__item a div.contact-data div.contact-data__body div.contact-data__body-topline div.flex-item-left {
+    margin-right: 0px;
+    margin-left: var(--cl-primary-offset-size); }
+  body[dir="rtl"].cl-app-chat div.chats div.chat-contacts div.contacts-list__item a div.contact-data div.contact-data__body div.contact-data__body-midline div.last-message {
+    margin-right: 0px;
+    margin-left: var(--cl-primary-offset-size); }
+
+/* ===================================================== */
+body[dir="rtl"].cl-app-notifications div.notifications div.notifications-list div.notifications-list__item div.notifications-list__item-data {
+  padding-left: 0px;
+  padding-right: var(--cl-primary-offset-size); }
+  body[dir="rtl"].cl-app-notifications div.notifications div.notifications-list div.notifications-list__item div.notifications-list__item-data div.notifications-data div.notifications-data__body {
+    margin-right: 0px;
+    margin-left: var(--cl-primary-offset-size); }
+  body[dir="rtl"].cl-app-notifications div.notifications div.notifications-list div.notifications-list__item div.notifications-list__item-data div.notifications-data div.notifications-data__ctrls div.notif-ctrls div.notif-ctrls__delete {
+    margin-right: 0px;
+    margin-left: 20px; }
+  body[dir="rtl"].cl-app-notifications div.notifications div.notifications-list div.notifications-list__item div.notifications-list__item-data:hover div.notifications-data div.notifications-data__ctrls div.notif-ctrls div.notif-ctrls__delete, body[dir="rtl"].cl-app-notifications div.notifications div.notifications-list div.notifications-list__item div.notifications-list__item-data:active div.notifications-data div.notifications-data__ctrls div.notif-ctrls div.notif-ctrls__delete {
+    visibility: visible; }
+
+/* ===================================================== */
+body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__header div.user-profile__header-cover div.cover-corrector {
+  left: 0px;
+  right: auto; }
+body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__header div.user-profile__header-avatar {
+  left: auto;
+  right: 0px; }
+body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__body div.user-profile__controls div.user-profile__controls-item.ml-offset {
+  margin-left: 0px;
+  margin-right: 20px; }
+body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__body div.user-profile__counter a.counter-item {
+  margin-right: 0px;
+  margin-left: var(--cl-primary-offset-size); }
+body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__footer div.profile-shortinfo div.profile-shortinfo__item {
+  margin-right: 0px;
+  margin-left: var(--cl-primary-offset-size); }
+body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__footer div.profile-myfollower {
+  margin-bottom: var(--cl-primary-offset-size);
+  color: var(--cl-secondary-text-color);
+  font-size: 14px; }
+body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__footer div.profile-common-follows {
+  margin-bottom: var(--cl-primary-offset-size); }
+  body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__footer div.profile-common-follows div.common-follows div.common-follows__list {
+    margin-right: 7px; }
+    body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__footer div.profile-common-follows div.common-follows div.common-follows__list div.common-follows__item {
+      margin-right: -7px; }
+      body[dir="rtl"].cl-app-profile div.user-profile div.user-profile__footer div.profile-common-follows div.common-follows div.common-follows__list div.common-follows__item.common-follows__item_total {
+        margin-right: 7px; }
+
+/* ===================================================== */
+body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-chain div.post-list-item:after {
+  right: 80px;
+  left: var(--cl-primary-offset-size); }
+  @media (max-width: 1199.98px) {
+    body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-chain div.post-list-item:after {
+      right: 52px; } }
+body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-data div.post-list-item div.post-list-item__content div.post-data div.post-data__content {
+  padding-right: 0px; }
+  body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-data div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__publisher div.post-avatar {
+    margin-left: var(--cl-primary-offset-size);
+    margin-right: 0px; }
+  body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-data div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__date div.publication-date {
+    margin-left: 0px;
+    margin-left: 5px; }
+  body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-data div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__date div.publication-target {
+    margin-left: 0px;
+    margin-right: 15px; }
+    body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-data div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__date div.publication-target:before {
+      left: auto;
+      right: -10px; }
+  body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-data div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__date div.publication-privacy {
+    margin-right: auto;
+    margin-left: 0px; }
+body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-replys div.timeline-posts-ls-group {
+  border-top: 2px solid var(--cl-primary-border-color); }
+  body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-replys div.timeline-posts-ls-group:hover, body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-replys div.timeline-posts-ls-group:active {
+    background: var(--cl-event-hover-bg); }
+  body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-replys div.timeline-posts-ls-group:first-child {
+    border-top: none; }
+  body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-replys div.timeline-posts-ls-group div.timeline-posts-ls-group-inner div.post-list-item::after {
+    right: 80px;
+    left: var(--cl-primary-offset-size); }
+    @media (max-width: 1199.98px) {
+      body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-replys div.timeline-posts-ls-group div.timeline-posts-ls-group-inner div.post-list-item::after {
+        right: 52px; } }
+  body[dir="rtl"].cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-replys div.timeline-posts-ls-group div.show-thread a {
+    flex-direction: row-reverse; }
+
+/* ===================================================== */
+body[dir="rtl"].cl-app-wallet div.account-wallet div.account-wallet__status div.account-wallet__card div.wallet-balance div.wallet-balance__amount {
+  padding-right: 0px;
+  padding-left: var(--cl-primary-offset-size); }
+body[dir="rtl"].cl-app-wallet div.account-wallet div.account-wallet__status div.account-wallet__card div.wallet-footer div.wallet-footer__ctrls a.wallet-footer__ctrls-item:first-child {
+  margin-left: var(--cl-primary-offset-size);
+  margin-right: 0px; }
+body[dir="rtl"].cl-app-wallet div.account-wallet div.account-wallet__history div.wallet-transactions div.wallet-transactions__item div.rp {
+  padding-left: 0px;
+  padding-right: var(--cl-primary-offset-size); }
+  body[dir="rtl"].cl-app-wallet div.account-wallet div.account-wallet__history div.wallet-transactions div.wallet-transactions__item div.rp div.mp__amount {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 2px; }
+    body[dir="rtl"].cl-app-wallet div.account-wallet div.account-wallet__history div.wallet-transactions div.wallet-transactions__item div.rp div.mp__amount div.flex-item-left {
+      margin-left: var(--cl-primary-offset-size);
+      margin-right: 0px; }
+  body[dir="rtl"].cl-app-wallet div.account-wallet div.account-wallet__history div.wallet-transactions div.wallet-transactions__item div.rp div.mp__text {
+    font-size: 15px;
+    color: var(--cl-secondary-text-color); }
+    @media (max-width: 1199.98px) {
+      body[dir="rtl"].cl-app-wallet div.account-wallet div.account-wallet__history div.wallet-transactions div.wallet-transactions__item div.rp div.mp__text {
+        font-size: 13px; } }
+
+/* ===================================================== */
+
+/*# sourceMappingURL=master.styles.rtl.css.map */

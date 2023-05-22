@@ -1,0 +1,374 @@
+// @*************************************************************************@
+// @ Software author: Mansur Altamirov (Mansur_TL)							 @
+// @ Author_url 1: https://www.instagram.com/mansur_tl                       @
+// @ Author_url 2: http://codecanyon.net/user/mansur_tl                      @
+// @ Author E-mail: vayart.help@gmail.com                                    @
+// @*************************************************************************@
+// @ ColibriSM - The Ultimate Modern Social Media Sharing Platform           @
+// @ Copyright (c) 2020 - 2021 ColibriSM. All rights reserved.               @
+// @*************************************************************************@
+
+body.cl-app-guest{
+	background-color: var(--cl-primary-bg-color);
+	
+	div.welcome-page{
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+
+		div.welcome-page__slider{
+			background-position: center center;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    height: 100%;
+		    left: 0;
+		    position: fixed;
+		    top: 0;  
+		    width: 50%;
+		    z-index: 1;
+		    overflow: hidden;
+
+			div.slide{
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				right: 0px;
+				bottom: 0px;
+				opacity: 0;
+				z-index: -1;
+				transition: opacity 1s ease-in-out;
+
+				&.show{
+					width: 100%;
+					opacity: 1;
+					height: 100%;
+					z-index: 5;
+				}
+			}
+
+			@include media-breakpoint-down(lg) {
+				display: none;
+			}
+		}
+
+		div.welcome-page__body{
+			flex: 1;
+			position: relative;
+			z-index: 10;
+
+			div.welcome-page__rp{
+				padding-top: 50px;
+				padding-bottom: 50px;
+				padding-left: 50px;
+
+				div.welcome-page__rp-inner{
+					div.welcome-page-form{
+						div.welcome-page-form__header{
+							margin-bottom: 40px;
+
+							a.logo{
+								display: block;
+								text-decoration: none;
+								height: 50px;
+								margin-bottom: 20px;
+
+								img{
+									height: 100%;
+								}
+							}
+
+							h1{
+								font-weight: 900;
+								font-size: 42px;
+								color: var(--cl-primary-text-color);
+							}
+
+							@include media-breakpoint-down(md) {
+								margin-bottom: 30px;
+								
+								h1{
+									font-size: 28px;
+								}
+							}
+						}
+
+						div.welcome-page-form__body{
+							max-width: 400px;
+							min-width: 320px;
+
+							div.auth-form{
+								div.auth-form-holder{
+									form.form{
+										div.form-title{
+											margin-bottom: 20px;
+
+											h2{
+												color: var(--cl-primary-text-color);
+												font-size: 28px;
+												line-height: 1;
+												padding: 0;
+												margin: 0;
+												font-weight: 700;
+											}
+
+											p{
+												font-size: 14px;
+												line-height: 1.4;
+												color: var(--cl-primary-text-color);
+												margin: 10px 0 0 0;
+												padding: 0;
+												opacity: 0.9;
+											}
+
+											@include media-breakpoint-down(lg) {
+												h2{
+													font-size: 27px;
+													margin-bottom: 0px;
+												}
+
+												p{
+													font-size: 13px;
+												}
+											}
+										}
+
+										div.form-group{
+											&.oauth-login-providers{
+												a.social-login-btn{
+													margin-bottom: 10px;
+													display: block;
+
+													button{
+														border: none;
+														text-transform: none;
+														font-size: 14px;
+
+														span.btn-icon{
+															width: 20px;
+															height: 20px;
+															min-width: 20px;
+															fill: #fff;
+															margin-right: 15px;
+
+															svg{
+																width: 100%;
+																height: 100%;
+															}
+														}
+													}
+
+													&.twitter{
+														button{
+															background: #64ccf2;
+															color: #fff;
+														}
+													}
+
+													&.linkedin{
+														button{
+															background: #0e76a8;
+															color: #fff;
+														}
+													}
+
+													&.facebook{
+														button{
+															background: #507cc0;
+															color: #fff;
+														}
+													}
+
+													&.discord{
+														button{
+															background: #5468ff;
+															color: #fff;
+														}
+													}
+
+													&.vkontakte{
+														button{
+															background: #5181b8;
+															color: #fff;
+														}
+													}
+
+													&.instagram{
+														button{
+															background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+															color: #fff;
+														}
+													}
+
+													&.google{
+														button{
+															box-shadow: none;
+															background: #fff;
+															border: 1px solid var(--cl-secondary-border-color);
+															color: var(--cl-primary-text-color);
+															color: #111;
+														}
+													}
+
+													&:last-child{
+														margin-bottom: 0px;
+													}
+												}
+											}
+
+											div.form-cta-link{
+												text-align: center;
+												line-height: 1.4;
+												color: var(--cl-secondary-text-color);
+												font-size: 13px;
+
+												a{
+													color: var(--cl-primary-link-color);
+												}
+											}
+
+											div.login-or-signup{
+												display: flex;
+												justify-content: center;
+
+												span{
+													font-size: 13px;
+													line-height: 13px;
+													position: relative;
+													color: var(--cl-secondary-text-color);
+
+													&:before{
+														content: "";
+														height: 2px;
+														background: var(--cl-primary-border-color);
+														position: absolute;
+														top: 4px;
+														left: -70px;
+														width: 50px;
+													}
+
+													&:after{
+														content: "";
+														height: 2px;
+														background: var(--cl-primary-border-color);
+														position: absolute;
+														top: 4px;
+														right: -70px;
+														width: 50px;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+
+					@include media-breakpoint-down(xl) {
+					}
+				}
+
+				@include media-breakpoint-down(lg) {
+					padding-left: 20px;
+					padding-right: 20px;
+					display: flex;
+					justify-content: center;
+				}
+			}
+		}
+
+		div.welcome-page__footer{
+			padding-top: 15px;
+			flex-shrink: 0;
+			background-color: #000000;
+			position: relative;
+			z-index: 10;
+
+			@include media-breakpoint-down(xl) {
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-bottom: 15px;
+			}
+
+			div.welcome-page__bp{	
+				div.main-footer{
+					display: flex;
+				
+					ul.footer-nav{
+						flex: 1;
+						display: flex;
+						flex-direction: row;
+						flex-wrap: wrap;
+						padding: 0;
+						margin: 0;
+						list-style-type: none;
+
+						li.footer-nav-item{
+							margin-right: 20px;
+							margin-bottom: 15px;
+							line-height: 1;
+							font-weight: 500;
+
+							& > a{
+								font-size: 13px;
+								color: #8f94a8;
+								line-height: 20px;
+								text-decoration: none;
+							}
+
+							&.dropdown > div.dropdown-toggle {
+								font-size: 13px;
+								color: #8f94a8;
+								line-height: 20px;
+								cursor: pointer;
+							}
+
+							&.dropdown{
+								a.dropdown-item{
+									text-decoration: none;
+								}
+							}
+
+							@include media-breakpoint-down(lg) {
+								margin-bottom: 5px;
+
+								&:last-child{
+									margin-left: 0px;
+								}
+							}
+						}
+					}
+
+					div.footer-nav-get-apps{
+						display: flex;
+						align-items: flex-start;
+						flex-shrink: 0;
+
+						a{
+							margin-left: 5px;
+							text-decoration: none;
+							color: #8f94a8;
+							opacity: 1;
+							transition: all 0.27s ease;
+
+							svg{
+								width: 25px;
+								height: 25px;
+								transition: all 0.27s ease;
+							}
+
+							&:hover, &:active{
+								opacity: 1;
+							}
+						}
+					}
+
+					@include media-breakpoint-down(md) {
+						flex-direction: column;
+						align-items: flex-start;
+					}
+				}
+			}
+		}
+	}
+}

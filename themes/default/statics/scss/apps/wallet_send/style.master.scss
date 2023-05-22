@@ -1,0 +1,239 @@
+// @*************************************************************************@
+// @ Software author: Mansur Altamirov (Mansur_TL)							 @
+// @ Author_url 1: https://www.instagram.com/mansur_tl                       @
+// @ Author_url 2: http://codecanyon.net/user/mansur_tl                      @
+// @ Author E-mail: vayart.help@gmail.com                                    @
+// @*************************************************************************@
+// @ ColibriSM - The Ultimate Modern Social Media Sharing Platform           @
+// @ Copyright (c) 2020 - 2021 ColibriSM. All rights reserved.               @
+// @*************************************************************************@
+
+body.cl-app-wallet_send{
+	div.wallet-send{
+		padding: var(--cl-primary-offset-size);
+
+		div.account-wallet__card{
+			border-radius: var(--cl-secondary-border-radius);
+			border: 2px solid var(--cl-secondary-border-color);
+
+			@include media-breakpoint-down(xl) {
+				padding-top: 20px;
+			}
+
+			div.account-wallet__card-title{
+				padding: 15px 20px;
+				font-size: 16px;
+				color: var(--cl-primary-text-color);
+				font-weight: 500;
+				text-transform: uppercase;
+			}
+
+			div.wallet-balance{
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				overflow: hidden;
+				align-items: center;
+				position: relative;
+				padding: 20px;
+
+				@include media-breakpoint-down(xl) {
+					padding: 20px;
+				}
+
+				&::before{
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					background: var(--cl-primary-color);
+					opacity: 0.08;
+					content: "";
+					left: 0px;
+					top: 0px;
+				}
+				
+				div.wallet-balance__icon{
+					z-index: 5;
+
+					svg{
+						width: 42px;
+						height: 42px;
+						fill: var(--cl-primary-color);
+						opacity: 0.8;
+
+						@include media-breakpoint-down(xl) {
+							width: 35px;
+							height: 35px;
+						}
+					}
+				}
+
+				div.wallet-balance__amount{
+					flex: 1;
+					overflow: hidden;
+					padding-right: var(--cl-primary-offset-size);
+					z-index: 5;
+
+					span{
+						display: block;
+						width: 100%;
+						line-height: 1;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						max-width: 100%;
+
+						&:first-child{
+							font-size: 42px;
+							margin-bottom: 5px;
+							font-weight: 500;
+							color: var(--cl-primary-text-color);
+							font-family: sans-serif;
+						}
+
+						&:last-child{
+							font-size: 12px;
+							color: var(--cl-secondary-text-color);
+							text-transform: uppercase;
+						}
+
+						@include media-breakpoint-down(xl) {
+							&:first-child{
+								font-size: 36px;
+							}
+						}
+					} 
+				}
+			}
+		}
+
+		div.wallet-send__title{
+			overflow: hidden;
+			padding: var(--cl-primary-offset-size);
+			background: var(--cl-secondary-bg-color);
+			border-bottom: 1px solid var(--cl-primary-border-color);
+
+			h4{
+				font-size: 13px;
+				color: var(--cl-primary-text-color);
+				padding: 0;
+				margin: 0;
+				font-weight: 500;
+				text-transform: uppercase;
+			}
+		}
+
+		div.wallet-send__form{
+			padding: 15px 20px;
+			
+			form.form{
+				div.recipients-search-input{
+					position: relative;
+
+					span.input-spinner{
+						position: absolute;
+						top: 0px;
+						right: 0px;
+						text-decoration: none;
+						z-index: 2;
+						width: 48px;
+						height: 48px;
+						display: inline-flex;
+						align-items: center;
+						justify-content: center;
+
+						svg{
+							width: 28px;
+							height: 28px;
+						}
+					}
+				}
+
+				div.recipients-list{
+					position: relative;
+					width: 100%;
+					margin-top: 10px;
+
+					div.recipients-list__body{
+						position: absolute;
+						top: 0px;
+						z-index: 100;
+						box-shadow: var(--cl-primary-box-shadow);
+						left: 0px;
+						width: 100%;
+
+						div.recipients-list{
+							max-height: 300px;
+							background-color: var(--cl-primary-bg-color);
+							overflow-y: auto;
+							overflow-x: hidden;
+
+							@import "../../snippets/_scrollbar.scss";
+
+
+							div.recipients-list__item{
+								display: flex;
+								align-items: center;
+								flex-wrap: nowrap;
+								border-bottom: 1px solid var(--cl-primary-border-color);
+								cursor: pointer;
+								padding: var(--cl-primary-offset-size);
+								overflow: hidden;
+
+								div.recipients-list__item-avatar{
+									flex-basis: 38px;
+									height: 38px;
+									flex-shrink: 0;
+
+									img{
+										width: 100%;
+										height: 100%;
+										border-radius: 100%;
+									}
+								}
+
+								div.recipients-list__item-username{
+									padding-left: var(--cl-primary-offset-size);
+									display: flex;
+									flex-direction: column;
+									overflow: hidden;
+									flex: 1;
+
+									span.user-name-holder{
+										max-width: calc(100% - 20px);
+										font-weight: 600;
+										color: var(--cl-primary-text-color);
+										font-size: var(--cl-primary-name-size);
+										line-height: 1.2;
+										overflow: hidden;
+										white-space: nowrap;
+										text-overflow: ellipsis;
+									}
+
+									span.username{
+										color: var(--cl-secondary-text-color);
+										font-size: var(--cl-primary-name-size);
+										flex-basis: 100%;
+										line-height: 1.2;
+										overflow: hidden;
+										white-space: nowrap;
+										text-overflow: ellipsis;
+									}
+								}
+
+								&:last-child{
+									border-bottom: none;
+								}
+
+								&:hover, &:focus{
+									background: var(--cl-event-hover-bg);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
