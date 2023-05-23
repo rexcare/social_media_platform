@@ -304,12 +304,12 @@
 					<button v-else v-on:click="emoticon_picker" type="button" class="ctrl-item">
 						<?php echo cl_icon("emoji_emotions"); ?>
 					</button>
-					<button type="button" class="ctrl-item" v-on:click="create_poll" v-bind:disabled="poll_ctrl != true">
+					<!-- <button type="button" class="ctrl-item" v-on:click="create_poll" v-bind:disabled="poll_ctrl != true">
 						<?php echo cl_icon('poll'); ?>
 					</button>
 					<button type="button" class="ctrl-item" v-on:click="select_gifs" v-bind:disabled="gif_ctrl != true">
 						<?php echo cl_icon('gif_box'); ?>
-					</button>
+					</button> -->
 					<button type="button" class="ctrl-item text-length ml-auto">
 						<small v-show="text.length" v-bind:class="{'len-error': (text.length > settings.max_length) }">
 							{{text.length}}/{{settings.max_length}}

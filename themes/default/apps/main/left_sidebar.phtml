@@ -105,6 +105,33 @@
 									<button onclick="SMColibri.follow(this);" data-user-name="Site Admin" class="btn btn-custom btn-block main-inline md" data-action="follow" data-id="1">
 										Follow
 									</button>
+									<!-- <?php if (empty($cl['li']['is_user'])): ?>
+										<?php if ($cl['li']['follow_privacy'] == "approved"): ?>
+											<?php if (not_empty($cl['li']['is_following'])): ?>
+												<button onclick="SMColibri.req_follow(this);" data-user-name="<?php echo($cl['li']['name']); ?>" class="btn btn-custom md main-inline" data-action="unfollow" data-id="<?php echo($cl['li']['id']); ?>">
+													<?php echo cl_translate("Unfollow"); ?>
+												</button>
+											<?php elseif (not_empty($cl['li']['follow_requested'])): ?>
+												<button onclick="SMColibri.req_follow(this);" data-user-name="<?php echo($cl['li']['name']); ?>" class="btn btn-custom main-inline md" data-action="cancel" data-id="<?php echo($cl['li']['id']); ?>">
+													<?php echo cl_translate("Pending"); ?>
+												</button>
+											<?php else: ?>
+												<button onclick="SMColibri.req_follow(this);" data-user-name="<?php echo($cl['li']['name']); ?>" class="btn btn-custom main-outline md" data-action="follow" data-id="<?php echo($cl['li']['id']); ?>">
+													<?php echo cl_translate("Follow"); ?>
+												</button>
+											<?php endif; ?>
+										<?php else: ?>
+											<?php if (empty($cl['li']['is_following'])): ?>
+												<button onclick="SMColibri.follow(this);" data-user-name="<?php echo($cl['li']['name']); ?>" class="btn btn-custom md main-outline" data-action="follow" data-id="<?php echo($cl['li']['id']); ?>">
+													<?php echo cl_translate("Follow"); ?>
+												</button>
+											<?php else: ?>
+												<button onclick="SMColibri.follow(this);" data-user-name="<?php echo($cl['li']['name']); ?>" class="btn btn-custom md main-inline" data-action="unfollow" data-id="<?php echo($cl['li']['id']); ?>">
+													<?php echo cl_translate("Unfollow"); ?>
+												</button>
+											<?php endif; ?>
+										<?php endif; ?>
+									<?php endif; ?> -->
 								</div>
 							</div>
 						<?php endforeach; ?>
