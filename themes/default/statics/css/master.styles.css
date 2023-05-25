@@ -71,7 +71,7 @@ body[data-bg="dark"] {
   --plyr-audio-control-color: #93a4b0; }
 
 body[data-bg="default"] {
-  --cl-primary-bg-color: #e1e9e9;
+  --cl-primary-bg-color: #fbfbff;
   --cl-secondary-bg-color: #ffffff;
   --cl-primary-border-color: #e4eaef;
   --cl-secondary-border-color: #d4dee6;
@@ -482,6 +482,10 @@ body {
           background: var(--cl-primary-bg-color);
           /* border-bottom: 1px solid var(--cl-primary-border-color); */
          }
+         body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.user-profile{
+              border-radius: 5px;
+              background: var(--cl-secondary-bg-color);
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
           body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-header div.timeline-header__botline {
             display: flex;
             flex-direction: row;
@@ -681,7 +685,12 @@ body {
           padding: var(--cl-primary-offset-size);
           padding-bottom: 10px; 
           border-radius: 5px;
-          background: var(--cl-secondary-bg-color); }
+          background: var(--cl-secondary-bg-color); 
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
+          body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls{
+            display: flex;
+            gap: 1em;
+            flex-direction: column; }
           body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-item div.post-list-item__header {
             display: flex;
             margin-bottom: 5px;
@@ -1322,7 +1331,10 @@ body {
               body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-advert div.post-list-advert__footer button.ctrls-item.dropleft div.dropdown-toggle.ctrls-item__icon:hover, body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-advert div.post-list-advert__footer button.ctrls-item.dropleft div.dropdown-toggle.ctrls-item__icon:active, body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-posts-container div.timeline-posts-ls div.post-list-advert div.post-list-advert__footer button.ctrls-item.dropleft div.dropdown-toggle.ctrls-item__icon:focus {
                 opacity: 1; }
         body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-placeholder {
-          padding: 60px 30px; }
+          padding: 60px 30px;
+          border-radius: 5px;
+          background: var(--cl-secondary-bg-color); 
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
           body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-placeholder div.icon {
             margin-bottom: 20px;
             display: flex;
@@ -1483,6 +1495,10 @@ body {
                     fill: var(--cl-primary-color); }
                 body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-navbar div.timeline-navbar__item a button.timeline-navbar__item-btn:hover, body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-navbar div.timeline-navbar__item a button.timeline-navbar__item-btn:active, body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-navbar div.timeline-navbar__item a button.timeline-navbar__item-btn:focus {
                   background: var(--cl-event-hover-bg); }
+      body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container{
+        border-radius: 5px;
+        background: var(--cl-secondary-bg-color);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
         body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item {
           border-bottom: 1px solid var(--cl-primary-border-color);
           transition: all 0.27s ease-in-out;
@@ -1568,6 +1584,10 @@ body {
                         fill: var(--cl-secondary-text-color); }
                       body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon::before, body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft a.icon::after {
                         display: none; }
+                      body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.d-block div.notifications{
+                        border-radius: 5px;
+                        background: var(--cl-secondary-bg-color);
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
                     body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:hover a.icon, body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:active a.icon, body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:focus a.icon {
                       background: var(--cl-secondary-bg-color); }
                       body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:hover a.icon svg, body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:active a.icon svg, body main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container-inner div.timeline-container div.timeline-users-container div.timeline-user-ls div.user-list-item div.user-list-item__data div.user-data div.user-data__body div.user-data__body-topline div.flex-item-right div.user-data__ctrls div.dropdown-menu-holder button.dropleft:focus a.icon svg {
@@ -1882,8 +1902,10 @@ body {
                 body main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.sidebar__nav div.sidebar__nav-group div.sidebar__nav-item span.text > a b.wallet {
                   color: green;
                   font-weight: 500; }
-              body main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.sidebar__nav div.sidebar__nav-group div.sidebar__nav-item span.text span.info-indicators {
+              span.info-indicators {
                 display: inline-block;
+                top: -10px;
+                right: 20px;
                 background: var(--cl-danger-color);
                 color: #ffffff;
                 text-align: center;
@@ -1898,7 +1920,7 @@ body {
                 min-width: 20px;
                 font-weight: 400;
                 position: relative; }
-                body main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.sidebar__nav div.sidebar__nav-group div.sidebar__nav-item span.text span.info-indicators::before {
+                span.info-indicators::before {
                   width: 100%;
                   height: 100%;
                   position: absolute;
@@ -1912,7 +1934,7 @@ body {
                   box-shadow: 0 0 0 0 var(--cl-danger-color-lighten-5);
                   transform: scale(1);
                   animation: pulse 3s infinite; }
-                body main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.sidebar__nav div.sidebar__nav-group div.sidebar__nav-item span.text span.info-indicators:empty {
+                span.info-indicators:empty {
                   display: none;
                   visibility: hidden;
                   opacity: 0; }
@@ -2188,11 +2210,13 @@ body {
         body main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner div.right-sidebar div.right-sidebar__body {
           border-radius: 5px;
           background: var(--cl-secondary-bg-color);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
           /* padding: 24px; */
          }
          div.right-sidbar__hot-topic{
           border-radius: 5px;
           background: var(--cl-secondary-bg-color);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
           padding: 20px;
          }
           body main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner div.right-sidebar div.right-sidebar__body div.sidebar-content {
@@ -2216,6 +2240,23 @@ body {
               text-decoration: none;
               margin-bottom: 15px;
               overflow: hidden; }
+              div.sidebar-users div.sidebar-users__item div.sidebar-users__item-action svg{
+                fill: var(--cl-secondary-text-color);
+              }
+              div.sidebar-users div.sidebar-users__item div.sidebar-users__item-action button.dropright{
+                cursor: pointer;
+                background: transparent;
+                border: none;
+                outline: 0;
+                padding: 0px;
+                box-shadow: none;
+              }
+              div.sidebar-users div.sidebar-users__item div.sidebar-users__item-action button.dropright div.dropdown-toggle{
+                width: 26px;
+                height: 26px;
+                display: inline-block;
+                outline: 0;
+              }
               body main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.sidebar-content div.sidebar-content__body div.sidebar-users div.sidebar-users__item {
                 display: flex;
                 flex-wrap: nowrap;
@@ -2343,8 +2384,9 @@ body {
             flex-wrap: wrap;
             /* padding: 0; */
             margin: 0;
-            list-style-type: none; border-radius: 5px;
-            background: var(--cl-secondary-bg-color);
+            list-style-type: none; 
+            border-radius: 5px;
+            /* background: var(--cl-secondary-bg-color); */
             padding: 24px;}
             body main.main-content-container div.main-content-container-inner div.right-sb-container div.sidebar__inner div.right-sidebar div.right-sidebar__footer div.main-footer ul.footer-nav li.footer-nav-item {
               margin-right: 10px;
@@ -4512,7 +4554,8 @@ body {
     border-radius: 0px;
     background: transparent;
     overflow: visible;
-    z-index: 3000; }
+    z-index: 9999; 
+  }
     body div.popover div.user-infobox {
       width: 340px;
       background: var(--cl-primary-bg-color);
@@ -5442,6 +5485,7 @@ body.cl-app-home div.homepage div.homepage__pubbox {
   padding: var(--cl-primary-offset-size);
   border-radius: 5px;
   background: var(--cl-secondary-bg-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
   @media (max-width: 1390px) {
     body.cl-app-home div.homepage div.homepage__pubbox {
@@ -5452,7 +5496,8 @@ body.cl-app-home div.homepage div.homepage__swifts div.swifts-slider div.swiper 
   position: relative;
   padding: var(--cl-primary-offset-size); 
   border-radius: 5px;
-  background: var(--cl-secondary-bg-color); }
+  background: var(--cl-secondary-bg-color); 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
   body.cl-app-home div.homepage div.homepage__swifts div.swifts-slider div.swiper h4{
     font-weight: bold;
     font-size: 21px;
@@ -5548,7 +5593,7 @@ body.cl-app-home div.swift-player {
     top: 0px;
     bottom: 0px;
     right: 0px;
-    z-index: 1000;
+    z-index: 1020;
     background: rgba(0, 0, 0, 0.9);
     display: flex;
     justify-content: center;
@@ -6094,6 +6139,10 @@ body.cl-app-home div.modal.modal-swift-pubbox div.modal-body form.form div.swift
   opacity: 0.5; }
 
 /* ===================================================== */
+body.cl-app-chat div.chats div.chat-contacts{
+  border-radius: 5px;
+  background: var(--cl-secondary-bg-color);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
 body.cl-app-chat div.chats div.chat-contacts div.contacts-list__item {
   padding: var(--cl-primary-offset-size);
   border-bottom: 1px solid var(--cl-primary-border-color);
@@ -6265,6 +6314,7 @@ body.cl-app-notifications div.notifications div.notifications-list div.notificat
 body.cl-app-profile div.user-profile div.user-profile__header {
   position: relative; }
   body.cl-app-profile div.user-profile div.user-profile__header div.user-profile__header-cover {
+    border-radius: 5px 5px 0px 0px;
     background: var(--cl-secondary-bg-color);
     position: relative;
     z-index: 10;
@@ -6619,6 +6669,11 @@ body.cl-app-settings div.profile-settings a.profile-settings__link, body.cl-app-
         fill: #ffffff; }
 body.cl-app-settings div.profile-settings div.profile-settings__content, body.cl-app-premium_features div.profile-settings div.profile-settings__content {
   padding: var(--cl-primary-offset-size); }
+  body.cl-app-settings div.profile-settings div.profile-settings__content div.settings-form{
+    border-radius: 5px;
+    background: var(--cl-secondary-bg-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
   body.cl-app-settings div.profile-settings div.profile-settings__content div.settings-form form.form, body.cl-app-premium_features div.profile-settings div.profile-settings__content div.settings-form form.form {
     border-radius: var(--cl-secondary-border-radius);
     border: 1px solid var(--cl-secondary-border-color);
@@ -6639,8 +6694,9 @@ body.cl-app-search[data-page-tab="people"] div.right-sb-container div.sidebar-co
 
 /* ===================================================== */
 /* div.timeline-container div.user-profile{
-  border-radius: 21px;
-  background-color: var(--cl-secondary-bg-color);
+    border-radius: 5px;
+    background: var(--cl-secondary-bg-color);
+    padding: 20px;
 } */
 body main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.user-profile div.user-profile__header {
   position: relative; }
@@ -6653,11 +6709,13 @@ body main.main-content-container div.main-content-container-inner div.left-sb-co
     /* ====================== Day & Night Mode =============================== */
     div.sidebar__inner div.user-profile{
       border-radius: 5px;
-      background: var(--cl-secondary-bg-color);}
+      background: var(--cl-secondary-bg-color);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
     div.sidebar-content div.sidebar-content_users{
       border-radius: 5px;
       background: var(--cl-secondary-bg-color);
-      padding: 20px;}
+      padding: 30px 20px 20px 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
 
     body main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.user-profile div.user-profile__header div.user-profile__header-cover img {
       width: 100%; }
@@ -7289,7 +7347,8 @@ body.cl-app-thread main.main-content-container div.main-content-container-inner 
           background: var(--cl-secondary-text-color);
           left: -10px;
           top: 7px;
-          border-radius: 5px; }
+          border-radius: 5px; 
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);}
       body.cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-data div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__date div.publication-privacy {
         margin-left: auto; }
         body.cl-app-thread main.main-content-container div.main-content-container-inner div.timeline-container-wrapper div.timeline-container div.timeline-posts-container div.timeline-posts-ls.thread-data div.post-list-item div.post-list-item__content div.post-data div.post-data__content div.post-data__content-inner div.post-data-layout div.post-data-layout__date div.publication-privacy button.privacy-settings {
@@ -7584,6 +7643,9 @@ body.cl-app-wallet div.account-wallet div.account-wallet__history div.wallet-tra
 body main.main-content-container div.main-content-container-header{
   padding: 1rem;
   background-color: #081424;
+  position: sticky;
+  top: 0;
+  z-index: 1010;
 }
 
 body main.main-content-container div.main-content-container-header div.header__navbar {
@@ -7675,3 +7737,7 @@ body main.main-content-container div.main-content-container-header div.header__n
 
 /*# sourceMappingURL=master.styles.css.map */
 
+
+a{
+  text-decoration: none;
+}

@@ -52,6 +52,7 @@
                 <span class="icon">
                     <a href="<?php echo cl_link("chats"); ?>" data-spa="true">
                         <?php echo cl_icon('chat'); ?>
+			            <span class="info-indicators" data-an="new-messages"><?php echo fetch_or_get($me['new_messages']); ?></span>
                     </a>
                 </span>
             </div>
