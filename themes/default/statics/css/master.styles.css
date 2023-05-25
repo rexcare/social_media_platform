@@ -2243,20 +2243,6 @@ body {
               div.sidebar-users div.sidebar-users__item div.sidebar-users__item-action svg{
                 fill: var(--cl-secondary-text-color);
               }
-              div.sidebar-users div.sidebar-users__item div.sidebar-users__item-action button.dropright{
-                cursor: pointer;
-                background: transparent;
-                border: none;
-                outline: 0;
-                padding: 0px;
-                box-shadow: none;
-              }
-              div.sidebar-users div.sidebar-users__item div.sidebar-users__item-action button.dropright div.dropdown-toggle{
-                width: 26px;
-                height: 26px;
-                display: inline-block;
-                outline: 0;
-              }
               body main.main-content-container div.main-content-container-inner div.left-sb-container div.sidebar__inner div.sidebar-content div.sidebar-content__body div.sidebar-users div.sidebar-users__item {
                 display: flex;
                 flex-wrap: nowrap;
